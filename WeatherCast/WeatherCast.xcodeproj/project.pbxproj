@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B2DAF881D1AFAC200A0F232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2DAF871D1AFAC200A0F232 /* main.m */; };
+		9B2DAF8B1D1AFAC200A0F232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2DAF8A1D1AFAC200A0F232 /* AppDelegate.m */; };
+		9B2DAF911D1AFAC300A0F232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2DAF8F1D1AFAC300A0F232 /* Main.storyboard */; };
+		9B2DAF931D1AFAC300A0F232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2DAF921D1AFAC300A0F232 /* Assets.xcassets */; };
+		9B2DAF961D1AFAC300A0F232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2DAF941D1AFAC300A0F232 /* LaunchScreen.storyboard */; };
+		9B2DAF9E1D1B053400A0F232 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2DAF9D1D1B053400A0F232 /* CoreLocation.framework */; };
+		9B2DAFA91D1B17C700A0F232 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2DAFA51D1B17C700A0F232 /* ViewController.m */; };
+		9B2DAFAD1D1B19F800A0F232 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2DAFAC1D1B19F800A0F232 /* SettingsViewController.m */; };
+		9B2DAFB21D1B2FDD00A0F232 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2DAFB11D1B2FDD00A0F232 /* UIImage+animatedGIF.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B2DAF831D1AFAC200A0F232 /* WeatherCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2DAF871D1AFAC200A0F232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B2DAF891D1AFAC200A0F232 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B2DAF8A1D1AFAC200A0F232 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B2DAF901D1AFAC300A0F232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B2DAF921D1AFAC300A0F232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B2DAF951D1AFAC300A0F232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B2DAF971D1AFAC300A0F232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B2DAF9D1D1B053400A0F232 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9B2DAFA41D1B17C700A0F232 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B2DAFA51D1B17C700A0F232 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B2DAFAB1D1B19F800A0F232 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		9B2DAFAC1D1B19F800A0F232 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		9B2DAFB01D1B2FDD00A0F232 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		9B2DAFB11D1B2FDD00A0F232 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B2DAF801D1AFAC200A0F232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2DAF9E1D1B053400A0F232 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B2DAF7A1D1AFAC200A0F232 = {
+			isa = PBXGroup;
+			children = (
+				9B2DAF9D1D1B053400A0F232 /* CoreLocation.framework */,
+				9B2DAF851D1AFAC200A0F232 /* WeatherCast */,
+				9B2DAF841D1AFAC200A0F232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B2DAF841D1AFAC200A0F232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B2DAF831D1AFAC200A0F232 /* WeatherCast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B2DAF851D1AFAC200A0F232 /* WeatherCast */ = {
+			isa = PBXGroup;
+			children = (
+				9B2DAFA21D1B17C700A0F232 /* Controllers */,
+				9B2DAF891D1AFAC200A0F232 /* AppDelegate.h */,
+				9B2DAF8A1D1AFAC200A0F232 /* AppDelegate.m */,
+				9B2DAF8F1D1AFAC300A0F232 /* Main.storyboard */,
+				9B2DAF921D1AFAC300A0F232 /* Assets.xcassets */,
+				9B2DAF941D1AFAC300A0F232 /* LaunchScreen.storyboard */,
+				9B2DAF971D1AFAC300A0F232 /* Info.plist */,
+				9B2DAFAE1D1B2FDD00A0F232 /* Utilities */,
+				9B2DAF861D1AFAC200A0F232 /* Supporting Files */,
+			);
+			path = WeatherCast;
+			sourceTree = "<group>";
+		};
+		9B2DAF861D1AFAC200A0F232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B2DAF871D1AFAC200A0F232 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B2DAFA21D1B17C700A0F232 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B2DAFA31D1B17C700A0F232 /* Main Screen */,
+				9B2DAFA61D1B17C700A0F232 /* Settings */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9B2DAFA31D1B17C700A0F232 /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9B2DAFA41D1B17C700A0F232 /* ViewController.h */,
+				9B2DAFA51D1B17C700A0F232 /* ViewController.m */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
+		9B2DAFA61D1B17C700A0F232 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9B2DAFAB1D1B19F800A0F232 /* SettingsViewController.h */,
+				9B2DAFAC1D1B19F800A0F232 /* SettingsViewController.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9B2DAFAE1D1B2FDD00A0F232 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9B2DAFAF1D1B2FDD00A0F232 /* GIF */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9B2DAFAF1D1B2FDD00A0F232 /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				9B2DAFB01D1B2FDD00A0F232 /* UIImage+animatedGIF.h */,
+				9B2DAFB11D1B2FDD00A0F232 /* UIImage+animatedGIF.m */,
+			);
+			path = GIF;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B2DAF821D1AFAC200A0F232 /* WeatherCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B2DAF9A1D1AFAC300A0F232 /* Build configuration list for PBXNativeTarget "WeatherCast" */;
+			buildPhases = (
+				9B2DAF7F1D1AFAC200A0F232 /* Sources */,
+				9B2DAF801D1AFAC200A0F232 /* Frameworks */,
+				9B2DAF811D1AFAC200A0F232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherCast;
+			productName = WeatherCast;
+			productReference = 9B2DAF831D1AFAC200A0F232 /* WeatherCast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B2DAF7B1D1AFAC200A0F232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tejvansh Singh Chhabra";
+				TargetAttributes = {
+					9B2DAF821D1AFAC200A0F232 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6LWW676CY3;
+					};
+				};
+			};
+			buildConfigurationList = 9B2DAF7E1D1AFAC200A0F232 /* Build configuration list for PBXProject "WeatherCast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B2DAF7A1D1AFAC200A0F232;
+			productRefGroup = 9B2DAF841D1AFAC200A0F232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B2DAF821D1AFAC200A0F232 /* WeatherCast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B2DAF811D1AFAC200A0F232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2DAF961D1AFAC300A0F232 /* LaunchScreen.storyboard in Resources */,
+				9B2DAF931D1AFAC300A0F232 /* Assets.xcassets in Resources */,
+				9B2DAF911D1AFAC300A0F232 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B2DAF7F1D1AFAC200A0F232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2DAFA91D1B17C700A0F232 /* ViewController.m in Sources */,
+				9B2DAF8B1D1AFAC200A0F232 /* AppDelegate.m in Sources */,
+				9B2DAF881D1AFAC200A0F232 /* main.m in Sources */,
+				9B2DAFB21D1B2FDD00A0F232 /* UIImage+animatedGIF.m in Sources */,
+				9B2DAFAD1D1B19F800A0F232 /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B2DAF8F1D1AFAC300A0F232 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B2DAF901D1AFAC300A0F232 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B2DAF941D1AFAC300A0F232 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B2DAF951D1AFAC300A0F232 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B2DAF981D1AFAC300A0F232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B2DAF991D1AFAC300A0F232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B2DAF9B1D1AFAC300A0F232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WeatherCast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejvansh.WeatherCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B2DAF9C1D1AFAC300A0F232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WeatherCast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejvansh.WeatherCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B2DAF7E1D1AFAC200A0F232 /* Build configuration list for PBXProject "WeatherCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2DAF981D1AFAC300A0F232 /* Debug */,
+				9B2DAF991D1AFAC300A0F232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B2DAF9A1D1AFAC300A0F232 /* Build configuration list for PBXNativeTarget "WeatherCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2DAF9B1D1AFAC300A0F232 /* Debug */,
+				9B2DAF9C1D1AFAC300A0F232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B2DAF7B1D1AFAC200A0F232 /* Project object */;
+}
